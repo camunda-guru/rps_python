@@ -1,0 +1,61 @@
+python -m pip install -U pip setuptools
+pip install -U pip setuptools
+
+
+
+
+
+
+
+
+
+python get-pip.py 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--no-index --find-links=/local/copies
+
+Install to the user site [4]:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python get-pip.py --user
+
+Install behind a proxy:
+
+python get-pip.py --proxy="[user:passwd@]proxy.server:port"
+
+On Linux or macOS:
+update
+
+pip install -U pip
+
+On Windows [5]:
+
+python -m pip install -U pip

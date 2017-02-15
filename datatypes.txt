@@ -1,0 +1,31 @@
+date can be converted to string
+date.strftime(%d%m%y)
+
+string to date
+string difference - 298 days
+
+
+python 2.7 (linux, 32-bit):
+
+decimal 36
+dict 136
+float 16
+int 12
+list 32
+object 8
+set 112
+str 22
+tuple 24
+unicode 32
+python 3.3 (linux, 32-bit)
+
+decimal 52
+dict 144
+float 16
+int 14
+list 32
+object 8
+set 112
+str 26
+tuple 24
+unicode 26

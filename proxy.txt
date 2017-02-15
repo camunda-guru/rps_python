@@ -1,0 +1,43 @@
+set http_proxy=http://proxy.myproxy.com
+set https_proxy=https://proxy.myproxy.com
+easy_install pip
+
+pip install --proxy=https://user@mydomain:port  openpyxl
+
+set http_proxy=http://user:some%20long%20password@webproxy.mycompany.com:80
+
+
+python   apidemo.py
+
+
+import sys
+sys.path.append('')
+https://maps.googleapis.com/maps/api/directions/json?origin=Chennai&destination=Delhi
+
+https://www.quandl.com/api/v3/datasets/WIKI/FB.json
+
+import requests
+
+response=requests.get("http://jsonplaceholder.typicode.com/users", proxies={'http': 'proxy-chn.fmr.com:8000'})
+
+if response.status_code==200:
+    print('successful response')
+    for _ in response.json():
+         print(_["id"],"\t",_["username"],"\t", _["address"]["city"])
+
+
+pip install --proxy=proxy-chn.fmr.com:8000  requests
+
+
+
+
+
+
+
+
+
+
+
+
+
+
