@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Insurance>
+<row id=34567>
+<PolicyName>Jeevan Dhara</PolicyName>
+<StartDate>1-1-2017</StartDate>
+<EndDate>1-1-2025</EndDate>
+<SumAssured>1000000</SumAssured>
+<premium>
+<month>10000</month>
+</premium>
+</row>
+
+<row id=34578>
+<PolicyName>Education</PolicyName>
+<StartDate>1-12-2000</StartDate>
+<EndDate>12-1-2015</EndDate>
+<SumAssured>5000000</SumAssured>
+<premium>
+<year>10000</year>
+</premium>
+</row>
+
+
+</Insurance>
